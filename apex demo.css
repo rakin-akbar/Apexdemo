@@ -1,0 +1,127 @@
+body{
+    margin: 0%;
+}
+.top-menu{
+    background-color: gainsboro;
+    padding: 15px;
+    display: flex;
+    justify-content: end;
+}
+.top{
+    color: black;
+    text-decoration: none;
+    padding: 0 5px;
+    position: relative;
+}
+.top:hover{
+    text-decoration: underline;
+}
+.top-after{
+    content: '';
+    height: 15px;
+    width: 2px;
+    position: absolute;
+    top: 25%;
+    left: 0%;
+    background-color: black;
+}
+.header{
+    background-image: url(../imagegallery/apex\ cover.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 70px;
+    margin-bottom: 0;
+}
+.secondary-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.secondary-menu:hover{
+    background-color: white;
+}
+.menu-text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    margin: 0 10px;
+    color: red;
+    font-size: 30px;
+}
+.mt{
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.menu-icons{
+    margin-right: 30px;
+    padding: 5px;
+
+}
+.icon{
+    color: white;
+    padding: 10px 20px;
+}
+.secondary-menu:hover .mt{
+    color: black;
+}
+.secondary-menu:hover .icon{
+    color: black;
+}
+.tag-line{
+    text-align: center;
+}
+.tag-line{
+    color: white;
+    font-size: 40px;
+}
+.btn-out{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    margin: 0 10px;
+}
+.tag-line2{
+    text-align: left;
+    color: black;
+    font-size: 40px;
+}
+.mid{
+    background-color: rgb(117, 114, 114);
+    padding: 10px;
+}
+.text{
+    color: white;
+    position: relative;
+    bottom: 30px;
+    left: 20%;
+}
+.step{
+    font-size: 40px;
+}
+.but{
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    margin: 0;
+    border-radius: 5px;
+    position: relative;
+    border: 1px solid white; 
+}
+.image1>img{
+    position: absolute;
+    width: 40%;
+    height: 150%;
+    z-index: 2;
+    top: 90%;
+    left: 1%;
+}
+.vid{
+    position: absolute;
+    z-index: 1;
+    left: 35%;
+    bottom: -400px;
+}
