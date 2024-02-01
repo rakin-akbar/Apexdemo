@@ -1,0 +1,53 @@
+body{
+    margin: 0%;
+    padding: 0;
+    background: #89edf8;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.ball{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-60%, -60%);
+    width: 200px;
+    height: 20px;
+    background: linear-gradient(135deg, #894c40, #e62600);
+    border-radius: 50%;
+    animation: bounce 1.5s ease-in-out infinite;
+}
+.ball::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    border-radius: 70%;
+    background: #db4d4d;
+    opacity: 0.3;
+    filter: blur(12px);
+    animation: shadow 1.5s ease-in-out infinite;
+}
+@keyframes bouns{
+    0%, 100%{
+        top: -200px;
+    }
+    50%{
+        top: 150px;
+    }
+}
+@keyframes shadow{
+    0%, 100% {
+        top: 550px;
+        width: 300px;
+        height: 60px;
+    }
+    50% {
+        top: 220px;
+        width: 100px;
+        height: 60px;
+    }
+}
